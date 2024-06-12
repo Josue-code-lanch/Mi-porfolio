@@ -1,10 +1,14 @@
+.container {
+  margin: 0 15%;
+}
+
 .main-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   max-width: 36rem;
-  padding: 7% 10%;
+  height: 100vh;
 }
 
 .main-profile {
@@ -26,7 +30,7 @@
   background-color: #387d7a58;
   padding: 6px 12px;
   border-radius: 20px;
-  border: 1px solid #609e03;
+  border: 1px solid #9ad63f;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.689);
   font-size: 0.9rem;
   font-weight: 400;
@@ -81,6 +85,12 @@
   font-weight: 400;
   border-radius: 20px;
   text-align: center;
+}
+
+hr {
+  border: 1px dotted rgba(98, 170, 172, 0.37);
+  margin: 0;
+  margin-bottom: 100px;
 }
 
 @media screen and (max-width: 480px) {

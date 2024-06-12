@@ -7,7 +7,7 @@ function App() {
     <>
       <Header />
       <Main />
-      <h1>footer</h1>
+      {/* <h1>footer</h1> */}
     </>
   );
 }
