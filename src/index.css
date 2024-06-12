@@ -1,0 +1,28 @@
+:root {
+  --color1: #fff;
+  --color2: #000;
+  --color3: #181d27;
+  --color4: #c6d8d3;
+  --color5: #387d7a;
+  --color6: #2f2f2f;
+  --color7: #93748a;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  color: var(--color1);
+  margin: 0;
+  max-width: 100vw;
+  box-sizing: border-box;
+  background-color: var(--color3);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduce-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
