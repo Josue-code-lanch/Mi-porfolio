@@ -120,10 +120,12 @@
     margin-bottom: 10px;
   }
   .section-about-info {
-    padding: 20px 30px;
+    padding: 20px 20px;
     font-size: 1rem;
     line-height: 22px;
     border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   .about-ul {
     list-style-type: none;
