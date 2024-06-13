@@ -8,7 +8,8 @@
   justify-content: center;
   align-items: flex-start;
   max-width: 36rem;
-  height: 100vh;
+  margin-top: 120px;
+  margin-bottom: 90px;
 }
 
 .main-profile {
@@ -87,15 +88,25 @@
   text-align: center;
 }
 
-hr {
-  border: 1px dotted rgba(98, 170, 172, 0.37);
-  margin: 0;
-  margin-bottom: 100px;
+@media screen and (max-width: 480px) {
+  .container {
+    margin: 0;
+    width: 100%;
+  }
+  .main-section {
+    padding: 10px 20px;
+  }
+  .buttons {
+    width: 100%;
+  }
+  .briefcase-icon {
+    width: 45px;
+    height: 45px;
+  }
 }
 
-@media screen and (max-width: 480px) {
-  .buttons {
-    gap: 20px;
-    width: 100%;
+@media screen and (min-width: 760px) and (max-width: 1024px) {
+  .container {
+    margin: 0 5%;
   }
 }

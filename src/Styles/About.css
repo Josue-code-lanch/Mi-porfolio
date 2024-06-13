@@ -1,0 +1,133 @@
+.secction-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.section-about-content {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.section-about-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(1px 1px 10px #7afdf6);
+  cursor: pointer;
+}
+.section-about-icon:hover {
+  filter: none;
+}
+
+.section-about-title {
+  border-bottom: 1px solid #7afdf6;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.section-about-info {
+  font-size: 1.1rem;
+  border: 2px solid rgb(122, 253, 246);
+  box-shadow: 0 0 20px rgba(122, 253, 246, 0.3);
+  border-radius: 10px 50px 10px 50px;
+  padding: 30px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-ul {
+  border-top: 1px dotted gray;
+  border-bottom: 1px dotted gray;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  list-style-type: circle;
+}
+
+.section-about-info span {
+  font-weight: 600;
+}
+
+.developer {
+  color: rgb(255, 218, 153);
+}
+
+.html {
+  color: rgb(255, 133, 89);
+}
+
+.css {
+  color: rgb(87, 163, 255);
+}
+
+.js {
+  color: #ffff5b;
+}
+
+.node-js {
+  color: rgb(102, 143, 19);
+}
+
+.api {
+  color: antiquewhite;
+}
+
+.mongodb {
+  color: rgb(108, 255, 108);
+}
+
+.express-js {
+  color: #7afdf6;
+}
+
+.mongoose {
+  color: orange;
+}
+
+.react {
+  color: rgb(186, 186, 255);
+}
+
+@media screen and (max-width: 480px) {
+  .secction-about {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .section-about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .info-icon {
+    width: 40px;
+    height: 40px;
+  }
+  .section-about-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .section-about-info {
+    padding: 20px 30px;
+    font-size: 1rem;
+    line-height: 22px;
+    border-radius: 20px;
+  }
+  .about-ul {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+  }
+}

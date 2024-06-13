@@ -3,7 +3,7 @@ import CheckIcon from "../Icons/CheckIcon";
 export default function MainSection() {
   return (
     <>
-      <section className="main-section">
+      <section className="main-section" id="inicio">
         <div className="main-profile">
           <img
             className="main-image"

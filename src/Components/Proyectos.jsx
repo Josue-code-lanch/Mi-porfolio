@@ -75,6 +75,16 @@ export default function Proyectos() {
       image: "./portada-page-contact.webp",
       tags: ["HTML", "CSS", "Diseño adaptable"],
     },
+    {
+      title: "TWITTER FOLLOW CARD",
+      description:
+        "Clonación de la tarjeta de seguidos de Twitter/X. Creada con React.",
+      link: "https://twitter-follow-card-lyart.vercel.app/",
+      github:
+        "https://github.com/Josue-code-lanch/Twitter-Follow-Card/tree/master/Twitter-Follow-Card",
+      image: "./portada-twittercard.webp",
+      tags: ["HTML", "CSS", "JavaScript", "JSX", "React"],
+    },
   ];
 
   return (

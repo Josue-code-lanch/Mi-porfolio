@@ -28,7 +28,7 @@ export default function Navbar() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Contacto
+            <span className="contact-span">Contacto</span>
           </a>
           <span className="navbar-desktop-icon">
             <DesktopIcon />
