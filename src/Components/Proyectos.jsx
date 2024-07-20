@@ -40,13 +40,13 @@ export default function Proyectos() {
       tags: ["HTML", "CSS", "JavaScript", "React"],
     },
     {
-      title: "STARBUCKS",
+      title: "BUSINESS MANAGER",
       description:
-        "Una clonación a la página oficial de Starbucks, creada con HTML. CSS y JavaScript. Es un proyecto en el que sigo trabajando para agregarle más funcionalidades, y adaptandolo a diferentes pantallas",
-      link: "https://starbucksclon.vercel.app/",
-      github: "https://github.com/Josue-code-lanch/Starbucks-clon",
-      image: "./portada-starbucks.webp",
-      tags: ["HTML", "CSS", "JavaScript"],
+        "Una página web que controla clientes, facturas, ingresos y usuarios. Es un proyecto a modo de práctica para un cliente ficticio, creada con Typescript, Tailwind, Next.js y SQL. Es un proyecto en el que sigo trabajando y practicando estas tecnologías para agregarle más funcionalidades, adaptándolo a diferentes pantallas, y mejorando el diseño.",
+      link: "https://managerbusiness.vercel.app/",
+      github: "https://github.com/Josue-code-lanch/Business-Manager",
+      image: "./portada-businessmanager.png",
+      tags: ["HTML", "Tailwind", "Typescript", "Next.js", "SQL"],
     },
     {
       title: "PROYECTO PKN",
@@ -78,7 +78,7 @@ export default function Proyectos() {
     {
       title: "TWITTER FOLLOW CARD",
       description:
-        "Clonación de la tarjeta de seguidos de Twitter/X. Creada con React.",
+        "Clonación de la tarjeta de seguidos de Twitter/X. Creada con React. Adaptada a diferentes pantallas, siguiendo el diseño de la página oficial de Twitter.",
       link: "https://twitter-follow-card-lyart.vercel.app/",
       github:
         "https://github.com/Josue-code-lanch/Twitter-Follow-Card/tree/master/Twitter-Follow-Card",
