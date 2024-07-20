@@ -13,7 +13,7 @@ export default function About() {
       <p className="section-about-info">
         <code>
           Mi nombre es Josué Gonzalez, un apasionado estudiante de{" "}
-          <span className="developer">Programación y Desarrollo Web </span>
+          <span className="developer">Programación Web y Desarrollo Web </span>
           de 22 años, actualmente residiendo en Argentina, Buenos Aires.
           <br />
           <br />
@@ -26,8 +26,8 @@ export default function About() {
           una pasión increíble, que decidí que forme parte de mi vida y de mi
           futuro. He pasado de hacer páginas básicas y simples a poder estudiar
           y dominar una librería como lo es <span className="react">React</span>{" "}
-          💙. <br /> Cuando comencé, tomé un curso en Academia Hola Mundo, con
-          el profesor Nicolás Schurmann, donde aprendí:
+          💙. <br /> Cuando comencé, tomé un curso en <u>Academia Hola Mundo</u>
+          , con el profesor Nicolás Schurmann, donde aprendí:
           <ul className="about-ul">
             <li>
               <span className="html">HTML</span>
@@ -53,15 +53,29 @@ export default function About() {
             <li>
               <span className="mongoose">Mongoose</span>
             </li>
+          </ul>
+          <ul className="about-ul">
+            <p>
+              También, con el pasar del tiempo fuí aprendiendo las siguientes
+              tecnologías:
+            </p>
             <li>
               <span className="react">React</span>
             </li>
+            <li>Next.js</li>
+            <li>
+              <span className="css">Tailwind</span>
+            </li>
+            <li>
+              <span className="express-js">Typescript</span>
+            </li>
+            <li>SQL</li>
           </ul>
-          Hoy día, sigo en un estudio constante en React, y en la{" "}
+          Hoy día, sigo en un estudio constante en la{" "}
           <span className="developer">Programación </span>
           como tal, al mismo tiempo que busco mi primer oportunidad laboral.
           <br />
-          <br />A pesar de ser trainee, mi{" "}
+          <br />A pesar de ser Junior, mi{" "}
           <span className="developer">determinación</span> y{" "}
           <span className="developer">dedicación</span> son mis principales
           activos. Estoy ansioso por enfrentar nuevos desafíos y aprender de
