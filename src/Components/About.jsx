@@ -54,11 +54,11 @@ export default function About() {
               <span className="mongoose">Mongoose</span>
             </li>
           </ul>
+          <span>
+            También, con el pasar del tiempo fuí aprendiendo las siguientes
+            tecnologías:
+          </span>
           <ul className="about-ul">
-            <p>
-              También, con el pasar del tiempo fuí aprendiendo las siguientes
-              tecnologías:
-            </p>
             <li>
               <span className="react">React</span>
             </li>
