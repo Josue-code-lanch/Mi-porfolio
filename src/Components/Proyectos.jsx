@@ -12,30 +12,6 @@ export default function Proyectos() {
     setShowMore(!showMore);
   }
 
-  const TAGS = {
-    HTML: {
-      name: "HTML",
-      color: {
-        backgroundColor: "red",
-      },
-      icon: <HTML5 />,
-    },
-    CSS: {
-      name: "CSS",
-      color: "",
-      icon: "",
-    },
-    JAVASCRIPT: {
-      name: "JavaScript",
-      color: "",
-      icon: "",
-    },
-    REACT: {
-      name: "React",
-      color: "",
-      icon: "",
-    },
-  };
   const PROJECTS = [
     {
       title: "LA VELADA DEL AÑO IV",
@@ -81,6 +57,15 @@ export default function Proyectos() {
       link: "https://pkn-oficial.vercel.app/",
       github: "https://github.com/Josue-code-lanch/Landing-proyecto-PKN",
       image: "./portada-pkn.webp",
+      tags: ["HTML", "CSS", "JavaScript", "React"],
+    },
+    {
+      title: "BUSCADOR DE PRODUCTOS",
+      description:
+        "Desarrollé un Buscador de Productos como una herramienta eficiente y amigable para mejorar la experiencia de compra en línea. Este proyecto demuestra mi habilidad para integrar tecnologías web modernas y crear soluciones que mejoren significativamente la usabilidad y funcionalidad de una tienda en línea.",
+      link: "https://reactproducts-finder.vercel.app/",
+      github: "https://github.com/Josue-code-lanch/React-shopping-cart",
+      image: "./portada-buscadordeproductos.png",
       tags: ["HTML", "CSS", "JavaScript", "React"],
     },
     {
