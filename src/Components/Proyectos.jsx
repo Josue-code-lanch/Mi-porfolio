@@ -3,8 +3,15 @@ import GitHubIcon from "../Icons/GitHubIcon";
 import LinkIcon from "../Icons/LinkIcon";
 import HTML5 from "../Icons/HTMLIcon";
 import "../Styles/Proyectos.css";
+import { useState } from "react";
 
 export default function Proyectos() {
+  const [showMore, setShowMore] = useState(false);
+
+  function handleShowMore() {
+    setShowMore(!showMore);
+  }
+
   const TAGS = {
     HTML: {
       name: "HTML",
@@ -49,15 +56,6 @@ export default function Proyectos() {
       tags: ["HTML", "Tailwind", "Typescript", "Next.js", "SQL"],
     },
     {
-      title: "PROYECTO PKN",
-      description:
-        "Pequeña landing para el proyecto musical de un amigo. Creada con React, mostrando unos logos que te llevan a sus redes sociales.",
-      link: "https://pkn-oficial.vercel.app/",
-      github: "https://github.com/Josue-code-lanch/Landing-proyecto-PKN",
-      image: "./portada-pkn.webp",
-      tags: ["HTML", "CSS", "JavaScript", "React"],
-    },
-    {
       title: "ULISES SOUTO",
       description:
         "Esta fue una pequeña prueba técnica que me hicieron. Trataba de clonar la página original, y agregarle nuevos estilos, animaciones, etc. Creada con React y Framer Motion, también utilicé React Router para la navegación entre paginas",
@@ -65,15 +63,6 @@ export default function Proyectos() {
       github: "https://github.com/Josue-code-lanch/Ulises-Souto-clon",
       image: "./portada-ulisessouto.webp",
       tags: ["HTML", "CSS", "JavaScript", "React", "Framer"],
-    },
-    {
-      title: "RESPONSIVE CONTACT PAGE",
-      description:
-        "Este fue un desafío que encontré en una plataforma para Desarrolladores, donde puse a prueba mis conocimientos y habilidades en HTML y CSS, pero sobre todo el Diseño Adaptable.",
-      link: "https://pagina-de-contacto-responsive.vercel.app/",
-      github: "https://github.com/Josue-code-lanch/Responsive-contact-page",
-      image: "./portada-page-contact.webp",
-      tags: ["HTML", "CSS", "Diseño adaptable"],
     },
     {
       title: "TWITTER FOLLOW CARD",
@@ -85,8 +74,27 @@ export default function Proyectos() {
       image: "./portada-twittercard.webp",
       tags: ["HTML", "CSS", "JavaScript", "JSX", "React"],
     },
+    {
+      title: "PROYECTO PKN",
+      description:
+        "Pequeña landing para el proyecto musical de un amigo. Creada con React, mostrando unos logos que te llevan a sus redes sociales.",
+      link: "https://pkn-oficial.vercel.app/",
+      github: "https://github.com/Josue-code-lanch/Landing-proyecto-PKN",
+      image: "./portada-pkn.webp",
+      tags: ["HTML", "CSS", "JavaScript", "React"],
+    },
+    {
+      title: "RESPONSIVE CONTACT PAGE",
+      description:
+        "Este fue un desafío que encontré en una plataforma para Desarrolladores, donde puse a prueba mis conocimientos y habilidades en HTML y CSS, pero sobre todo el Diseño Adaptable.",
+      link: "https://pagina-de-contacto-responsive.vercel.app/",
+      github: "https://github.com/Josue-code-lanch/Responsive-contact-page",
+      image: "./portada-page-contact.webp",
+      tags: ["HTML", "CSS", "Diseño adaptable"],
+    },
   ];
 
+  const visibleProjects = showMore ? PROJECTS : PROJECTS.slice(0, 3);
   return (
     <section className="section-projects-continer" id="proyectos">
       <div className="section-projects-content">
@@ -95,7 +103,7 @@ export default function Proyectos() {
         </span>
         <h2 className="section-project-title">Proyectos</h2>
       </div>
-      {PROJECTS.map((project) => (
+      {visibleProjects.map((project) => (
         <article className="article-project" key={project.title}>
           <div className="project-info">
             <h3 className="project-title">{project.title}</h3>
@@ -135,6 +143,9 @@ export default function Proyectos() {
           />
         </article>
       ))}
+      <button onClick={handleShowMore} className="show-more-button">
+        {showMore ? "Ver menos" : "Ver más"}
+      </button>
     </section>
   );
 }
