@@ -48,7 +48,7 @@
 
 .about-ul {
   border-top: 1px dotted gray;
-  border-bottom: 1px dotted gray;
+  /* border-bottom: 1px dotted gray; */
   padding-top: 15px;
   padding-bottom: 15px;
   list-style-type: circle;
