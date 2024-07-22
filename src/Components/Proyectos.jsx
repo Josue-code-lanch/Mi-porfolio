@@ -1,7 +1,6 @@
 import CodeIcon from "../Icons/CodeIcon";
 import GitHubIcon from "../Icons/GitHubIcon";
 import LinkIcon from "../Icons/LinkIcon";
-import HTML5 from "../Icons/HTMLIcon";
 import "../Styles/Proyectos.css";
 import { useState } from "react";
 
