@@ -29,7 +29,7 @@ export default function Proyectos() {
       link: "https://managerbusiness.vercel.app/",
       github: "https://github.com/Josue-code-lanch/Business-Manager",
       image: "./portada-businessmanager.png",
-      tags: ["HTML", "Tailwind", "Typescript", "Next.js", "SQL"],
+      tags: ["Tailwind", "Typescript", "Next.js", "SQL"],
     },
     {
       title: "ULISES SOUTO",
